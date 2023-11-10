@@ -1,0 +1,12 @@
+pkgbase = yt-dlp_youtube-dl
+	pkgdesc = A symlink for using yt-dlp as a youtube-dl dropin replacement
+	pkgver = 1
+	pkgrel = 1
+	url = https://github.com/yt-dlp/yt-dlp
+	arch = any
+	license = The Unlicense
+	depends = yt-dlp
+	provides = youtube-dl
+	conflicts = youtube-dl
+
+pkgname = yt-dlp_youtube-dl
